@@ -34,16 +34,16 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/networkservicemesh/api/pkg/api/registry"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/begin"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/expire"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/memory"
-	registryrecvfd "github.com/networkservicemesh/sdk/pkg/registry/common/recvfd"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/adapters"
-	registrychain "github.com/networkservicemesh/sdk/pkg/registry/core/chain"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
-	"github.com/networkservicemesh/sdk/pkg/tools/log/logruslogger"
-	"github.com/networkservicemesh/sdk/pkg/tools/spire"
+	"github.com/NikitaSkrynnik/api/pkg/api/registry"
+	"github.com/NikitaSkrynnik/sdk/pkg/registry/common/begin"
+	"github.com/NikitaSkrynnik/sdk/pkg/registry/common/expire"
+	"github.com/NikitaSkrynnik/sdk/pkg/registry/common/memory"
+	registryrecvfd "github.com/NikitaSkrynnik/sdk/pkg/registry/common/recvfd"
+	"github.com/NikitaSkrynnik/sdk/pkg/registry/core/adapters"
+	registrychain "github.com/NikitaSkrynnik/sdk/pkg/registry/core/chain"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/log"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/log/logruslogger"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/spire"
 )
 
 func (f *TestSuite) SetupSuite() {

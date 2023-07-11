@@ -24,7 +24,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/cmd-nse-vfio/internal/config"
+	"github.com/NikitaSkrynnik/cmd-nse-vfio/internal/config"
 )
 
 func TestServiceConfig_UnmarshalBinary(t *testing.T) {

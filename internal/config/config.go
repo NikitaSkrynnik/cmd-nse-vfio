@@ -29,7 +29,7 @@ import (
 	"github.com/kelseyhightower/envconfig"
 	"github.com/pkg/errors"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/cidr"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/cidr"
 )
 
 const (

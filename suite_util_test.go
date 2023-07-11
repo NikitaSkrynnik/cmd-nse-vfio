@@ -24,7 +24,7 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/grpcutils"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/grpcutils"
 )
 
 func (f *TestSuite) ListenAndServe(ctx context.Context, server *grpc.Server) <-chan error {

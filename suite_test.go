@@ -27,7 +27,7 @@ import (
 	"github.com/stretchr/testify/suite"
 	"google.golang.org/grpc"
 
-	"github.com/networkservicemesh/cmd-nse-vfio/internal/config"
+	"github.com/NikitaSkrynnik/cmd-nse-vfio/internal/config"
 )
 
 type TestSuite struct {
